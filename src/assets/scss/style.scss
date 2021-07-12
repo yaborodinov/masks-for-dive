@@ -1,0 +1,40 @@
+
+
+@import "./bootstrap/bootstrap.scss";
+
+
+@import "./vars";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: $primary;
+    font-size: 1.4rem;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    
+    &:hover{
+        text-decoration: none;
+        
+    }
+    &:focus{
+        text-decoration: none;
+    }
+}
+
+
+
+
+// blocks
+
