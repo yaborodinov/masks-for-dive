@@ -4,6 +4,7 @@
 
 
 @import "./vars";
+@import "vendor/reset";
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
@@ -38,3 +39,4 @@ a{
 
 // blocks
 
+@import "./blocks/header.scss";
