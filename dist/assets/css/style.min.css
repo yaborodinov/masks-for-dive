@@ -11272,6 +11272,9 @@ a:focus {
   padding: 50px 0;
   text-align: center;
 }
+.section__title--light {
+  color: #fff;
+}
 
 .product__block {
   background-color: #fff;
@@ -11414,4 +11417,25 @@ a:focus {
 
 .slick-prev:before, .slick-next:before {
   color: #1D3C50;
+}
+
+.about__us {
+  margin-top: 40px;
+  height: 750px;
+  width: 100%;
+  background-image: url(../images/font2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.about__us-col-right {
+  margin-top: 150px;
+}
+
+.about__us-text {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 20px;
 }

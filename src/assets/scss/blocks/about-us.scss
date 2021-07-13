@@ -1,0 +1,21 @@
+.about__us{
+    margin-top: 40px;
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/font2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about__us-col-right{
+    margin-top: 150px;
+}
+
+
+.about__us-text{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: $secondary;
+    margin-bottom: 20px;
+}

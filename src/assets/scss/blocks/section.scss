@@ -6,4 +6,7 @@
     margin-bottom: 50px;
     padding: 50px 0;
     text-align: center;
+    &--light{
+        color: $secondary;
+    }
 }
