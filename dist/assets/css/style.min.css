@@ -11501,7 +11501,7 @@ a:focus {
   padding: 25px;
   display: flex !important;
   flex-direction: row;
-  box-shadow: 0px 0px 25px rgba(35, 115, 152, 0.25);
+  box-shadow: 0px 0px 15px rgba(35, 115, 152, 0.25);
   border-radius: 10px;
   margin: 15px;
 }
@@ -11623,8 +11623,19 @@ a:focus {
 
 .footer {
   background-color: #1D3C50;
-  height: 40px;
-  width: 100%;
+}
+
+.footer__btn {
+  color: #fff;
+  padding: 20px 0;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: right;
+}
+.footer__btn:hover {
+  color: #fff;
+  cursor: pointer;
 }
 
 @media (max-width: 1199.98px) {

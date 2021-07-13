@@ -1,8 +1,20 @@
 .footer{
     background-color: $primary;
-    height: 40px;
-    width: 100%;
     
+    
+    
+}
+.footer__btn{
+    color: $secondary;
+    padding: 20px 0;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    text-align: right;
+    &:hover{
+        color: $secondary;
+        cursor: pointer;
+    }
     
 }
 
