@@ -1,0 +1,13 @@
+.footer{
+    background-color: $primary;
+    height: 40px;
+    width: 100%;
+    
+    
+}
+
+.footer .navbar{
+@include media-breakpoint-down(xl) {
+    display: none;
+    }
+}

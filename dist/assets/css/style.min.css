@@ -11266,15 +11266,26 @@ a:focus {
 }
 
 .wave-bottom-img {
-  margin-bottom: -1170px;
+  margin-bottom: -1070px;
   width: 100%;
   height: 430px;
   z-index: 1;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   .wave-bottom-img {
-    height: auto;
-    margin-bottom: -80px;
+    margin-bottom: -970px;
+    height: 250px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .wave-bottom-img {
+    margin-bottom: -800px;
+  }
+}
+@media (max-width: 767.98px) {
+  .wave-bottom-img {
+    height: 130px;
+    margin-bottom: -1500px;
   }
 }
 
@@ -11607,5 +11618,17 @@ a:focus {
 @media (max-width: 1199.98px) {
   .contacts__info-subtitle {
     font-size: 14px;
+  }
+}
+
+.footer {
+  background-color: #1D3C50;
+  height: 40px;
+  width: 100%;
+}
+
+@media (max-width: 1199.98px) {
+  .footer .navbar {
+    display: none;
   }
 }
