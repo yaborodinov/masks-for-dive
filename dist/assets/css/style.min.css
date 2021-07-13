@@ -11168,6 +11168,10 @@ a:focus {
   }
 }
 
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
+  color: #F8D470;
+}
+
 .nav-link {
   color: #fff;
   font-weight: 700;
@@ -11176,9 +11180,6 @@ a:focus {
   padding-left: 0;
   padding-right: 0;
   transition: all 0.2s linear;
-}
-.nav-link:hover {
-  color: #F8D470;
 }
 
 .nav__social-block {
