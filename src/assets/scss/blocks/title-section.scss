@@ -1,0 +1,41 @@
+.title__section{
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/section__title.png);
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    
+
+}
+
+
+.title__section-title{
+    width: 950px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    color: $secondary;
+    padding-top: 220px;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    @include media-breakpoint-down(lg) { 
+        width: 100%;
+        font-size: 28px;
+     }
+}
+
+.title__section-subtitle{
+    width: 600px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    color: $secondary;
+    margin-bottom: 50px;
+    @include media-breakpoint-down(lg) { 
+        width: 100%;
+        font-size: 20px;
+     }
+
+    
+}

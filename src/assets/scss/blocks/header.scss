@@ -1,3 +1,8 @@
+.header{
+    background-color: $primary;
+    z-index: 50;
+}
+
 .navbar-nav{
     margin-left: auto;
     margin-right: 0 !important;
@@ -20,14 +25,16 @@
     }
 }
 .nav-link{
-    color: $primary;
+    color: $secondary;
     font-weight: 700;
     font-size: 14px;
     line-height: 19px;
     padding-left: 0;
     padding-right: 0;
-    // color: $secondary;
-    
+    transition: all 0.2s linear;
+    &:hover{
+        color: $yellow;
+    }
 }
 
 
@@ -51,6 +58,9 @@
     };
     &--facebook{
         background-image: url(../images/fb.svg);
+    };
+    &:hover{
+        cursor: pointer;
     }
     
 }
