@@ -1,0 +1,39 @@
+.payment__block{
+    justify-content: space-around;
+}
+
+
+.payment__item{    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    min-width: 530px;
+    max-width: 530px;
+    @include media-breakpoint-down(lg) {
+        min-width: 360px;
+        max-width: 360px;
+    }
+}
+
+.payment__item-img{
+    width: 150px;
+    height: 150px;
+    margin-right: 30px;
+    @include media-breakpoint-down(lg) { 
+        width: 100px;
+        height: 100px;
+        margin-right: 20px;
+    }
+}
+
+.payment__item-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    @include media-breakpoint-down(lg) { 
+        line-height: 18px;
+        font-size: 14px;
+    }
+
+}

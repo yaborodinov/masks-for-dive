@@ -1,0 +1,35 @@
+.section__title{
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+    color: $primary;
+    margin-bottom: 50px;
+    padding-top: 50px ;
+    padding-bottom: 50px ;
+    text-align: center;
+    @include media-breakpoint-down(xl) {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    &--light{
+        color: $secondary;
+    }
+    &--pt0{
+        padding-top: 0;
+    };
+    &--inline{
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 80px;
+        padding-bottom: 10px;
+        line-height: 30px;
+
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #1d3c50b0;
+        border-radius: 10px;
+    };
+    
+}

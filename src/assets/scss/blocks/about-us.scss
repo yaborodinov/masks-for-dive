@@ -1,0 +1,40 @@
+.about__us{
+    margin-top: 40px;
+    height: 750px;
+    width: 100%;
+    background-image: url(../images/bg-sec.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.about__us-col-right{
+    margin-top: 150px;
+    @include media-breakpoint-down(sm) {
+          margin-top: 50px;  
+    }
+}
+
+.about__us-text-row{
+    @include media-breakpoint-down(sm) {
+        flex-direction: column;
+    }
+    
+}
+
+.about__us-text{
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 700;
+    color: $secondary;
+    padding: 20px 20px 20px 20px;
+    background-color: #1d3c50b0;
+    border-radius: none;
+    &:first-child{
+        padding: 20px 20px 0 20px;
+        border-radius: 10px 10px 0 0;
+    };
+    &:last-child{
+        border-radius: 0 0 10px 10px;
+        
+    }
+}

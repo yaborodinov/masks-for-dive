@@ -1,0 +1,13 @@
+
+
+
+
+.wave-middle-img{
+    margin-bottom: -370px;
+    width: 100%;
+    height: 378px;
+    @include media-breakpoint-down(lg) { 
+        height: auto;
+        margin-bottom: -80px;
+     }
+}

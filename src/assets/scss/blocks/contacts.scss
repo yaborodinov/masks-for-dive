@@ -1,0 +1,63 @@
+.contacts{
+    margin-bottom: 100px;
+}
+
+.contacts__block{
+    display: flex;
+    flex-direction: row;
+    
+    @include media-breakpoint-down(md) {
+        flex-direction: column;
+       align-items: center;
+    }
+}
+
+
+.contacts__map{
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 80px;
+    @include media-breakpoint-down(xl) {
+        width: 600px;
+    };
+    @include media-breakpoint-down(lg) {
+        width: 400px;
+    }
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+
+.contacts__info-title{
+    margin-top: 40px;
+    color: $primary;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 27px;
+    margin-bottom: 10px;
+    &:first-child{
+        margin-top: 0;
+    }
+    @include media-breakpoint-down(xl) {
+        line-height: 20px;
+        font-style: 16px;
+        margin-top: 15px;
+    }
+}
+.contacts__info-subtitle{
+    color: $primary;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    &:hover{
+        cursor: pointer;
+    };
+    @include media-breakpoint-down(xl) {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,70 @@
+.header{
+    background-color: $primary;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.navbar-toggler{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+
+.nav-item{
+    margin-right: 100px;
+    &:last-child{
+        margin-right: 170px;
+        @include media-breakpoint-down(xxl) {
+            margin-right: 150px;
+        }
+    }
+    @include media-breakpoint-down(xxl) { 
+        margin-right: 70px;
+    }
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus{
+    color: $yellow;
+}
+.nav-link{
+    color: $secondary;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left: 0;
+    padding-right: 0;
+    transition: all 0.2s linear;
+    
+}
+
+
+
+// social
+.nav__social-block{
+    display: flex;
+}
+
+
+.nav__social-item{
+    width: 35px;
+    height: 35px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &:first-child{
+        margin-right: 20px;
+    }
+    &--insta{
+        background-image: url(../images/inst.svg);
+    };
+    &--facebook{
+        background-image: url(../images/fb.svg);
+    };
+    &:hover{
+        cursor: pointer;
+    }
+    
+}
